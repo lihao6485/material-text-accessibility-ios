@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "MDFTextAccessibility"
-  spec.version      = "2.0.1"
+  spec.version      = "2.0.2"
   spec.summary      = "MDFTextAccessibility assists in selecting text colors that meet the W3C standards for accessibility."
   spec.homepage     = "https://github.com/google/material-text-accessibility-ios"
   spec.license      = "Apache License, Version 2.0"
@@ -11,6 +11,6 @@ Pod::Spec.new do |spec|
   spec.public_header_files = "src/MDFTextAccessibility.h"
   spec.private_header_files = "src/private/*.h"
   spec.header_dir   = "MDFTextAccessibility"
-  spec.ios.deployment_target = '11.0'
+  spec.ios.deployment_target = '13.0'
   spec.tvos.deployment_target = '12.0'
 end
